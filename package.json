@@ -1,12 +1,23 @@
 {
   "name": "nodejstutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnhan2003/node_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoangnhan2003/node_js/issues"
+  },
+  "homepage": "https://github.com/hoangnhan2003/node_js#readme",
+  "description": "",
+  "dependencies": {
+    "express": "4.7.1"
+  }
 }
