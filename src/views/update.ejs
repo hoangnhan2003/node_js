@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update user</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="update-user-container">
+        <form action="/update-ICPC" method="POST">
+            <div>
+                <label>University Name:</label>
+                <input name="UniversityName" value="<%= data.UniversityName %>" />
+            </div>
+            <div>
+                <label>Time:</label>
+                <input name="Time" value="<%= data.Time %>" />
+            </div>
+            <div>
+                <label>Result:</label>
+                <input name="Result" value="<%= data.Result %>" />
+            </div>
+            <div>
+                <label>ProblemId:</label>
+                <input name="ProblemId" value="<%= data.ProblemId %>" />
+            </div>
+            <input type="text" value="<%= data.TeamName %>" hidden name="TeamName" />
+            <div>
+                <button class="btn-save" type="submit">Save</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
